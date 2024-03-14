@@ -187,7 +187,7 @@ class PasswordItem extends Component {
               {searchResults.map(eachPassword => (
                 <Password
                   passwordDetails={eachPassword}
-                  key={eachPassword.key}
+                  key={eachPassword.id}
                   onDeleteButton={this.onDeletePassword}
                   passwordShow={isPasswordShown}
                 />
